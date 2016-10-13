@@ -6,22 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9E1D703E1DB037C9002EB736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D703D1DB037C9002EB736 /* AppDelegate.swift */; };
-		9E1D70401DB037C9002EB736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D703F1DB037C9002EB736 /* ViewController.swift */; };
-		9E1D70431DB037C9002EB736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D70411DB037C9002EB736 /* Main.storyboard */; };
-		9E1D70451DB037C9002EB736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D70441DB037C9002EB736 /* Assets.xcassets */; };
-		9E1D70481DB037C9002EB736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D70461DB037C9002EB736 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		9E1D703A1DB037C9002EB736 /* Entregas Curso Swift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Entregas Curso Swift iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E1D703D1DB037C9002EB736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E1D703F1DB037C9002EB736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E1D70421DB037C9002EB736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E1D70441DB037C9002EB736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E1D70471DB037C9002EB736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9E1D70491DB037C9002EB736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1D703A1DB037C9002EB736 /* Entregas Curso Swift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Entregas Curso Swift iOS.app"; path = "/Users/MAGV/Cursos/Swift iOS/swift-ios/Entregas Curso Swift iOS/build/Debug-iphoneos/Entregas Curso Swift iOS.app"; sourceTree = "<absolute>"; };
+		9E1D704F1DB03841002EB736 /* EntregaWeek2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EntregaWeek2.playground; path = "Entregas Curso Swift iOS/EntregaWeek2.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,30 +25,8 @@
 		9E1D70311DB037C9002EB736 = {
 			isa = PBXGroup;
 			children = (
-				9E1D703C1DB037C9002EB736 /* Entregas Curso Swift iOS */,
-				9E1D703B1DB037C9002EB736 /* Products */,
+				9E1D704F1DB03841002EB736 /* EntregaWeek2.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		9E1D703B1DB037C9002EB736 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E1D703A1DB037C9002EB736 /* Entregas Curso Swift iOS.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9E1D703C1DB037C9002EB736 /* Entregas Curso Swift iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9E1D703D1DB037C9002EB736 /* AppDelegate.swift */,
-				9E1D703F1DB037C9002EB736 /* ViewController.swift */,
-				9E1D70411DB037C9002EB736 /* Main.storyboard */,
-				9E1D70441DB037C9002EB736 /* Assets.xcassets */,
-				9E1D70461DB037C9002EB736 /* LaunchScreen.storyboard */,
-				9E1D70491DB037C9002EB736 /* Info.plist */,
-			);
-			path = "Entregas Curso Swift iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +74,7 @@
 				Base,
 			);
 			mainGroup = 9E1D70311DB037C9002EB736;
-			productRefGroup = 9E1D703B1DB037C9002EB736 /* Products */;
+			productRefGroup = 9E1D70311DB037C9002EB736;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -123,9 +88,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1D70481DB037C9002EB736 /* LaunchScreen.storyboard in Resources */,
-				9E1D70451DB037C9002EB736 /* Assets.xcassets in Resources */,
-				9E1D70431DB037C9002EB736 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +98,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1D70401DB037C9002EB736 /* ViewController.swift in Sources */,
-				9E1D703E1DB037C9002EB736 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9E1D70411DB037C9002EB736 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E1D70421DB037C9002EB736 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9E1D70461DB037C9002EB736 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E1D70471DB037C9002EB736 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9E1D704A1DB037C9002EB736 /* Debug */ = {
