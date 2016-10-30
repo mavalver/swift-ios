@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9E1D703A1DB037C9002EB736 /* Entregas Curso Swift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Entregas Curso Swift iOS.app"; path = "/Users/MAGV/Cursos/Swift iOS/swift-ios/Entregas Curso Swift iOS/build/Debug-iphoneos/Entregas Curso Swift iOS.app"; sourceTree = "<absolute>"; };
 		9E1D704F1DB03841002EB736 /* EntregaWeek2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EntregaWeek2.playground; path = "Entregas Curso Swift iOS/EntregaWeek2.playground"; sourceTree = "<group>"; };
+		9E26D4DD1DC6AACB00A4EE01 /* Entregas Curso Swift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Entregas Curso Swift iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +26,7 @@
 			isa = PBXGroup;
 			children = (
 				9E1D704F1DB03841002EB736 /* EntregaWeek2.playground */,
+				9E26D4DD1DC6AACB00A4EE01 /* Entregas Curso Swift iOS.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,7 +47,7 @@
 			);
 			name = "Entregas Curso Swift iOS";
 			productName = "Entregas Curso Swift iOS";
-			productReference = 9E1D703A1DB037C9002EB736 /* Entregas Curso Swift iOS.app */;
+			productReference = 9E26D4DD1DC6AACB00A4EE01 /* Entregas Curso Swift iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,6 +241,7 @@
 				9E1D704E1DB037C9002EB736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
